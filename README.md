@@ -68,3 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+##### things to know
+- promise 비동기 처리시 Method Chaning 기법을 통해 then() 메서드를 연쇄적으로 호출하면 디버깅이 어렵고 가독성이 떨어질 수 있다 ...
+- 그레서 async / await 가 등장
+- async 는 Function 앞에 붙고 await 는 async 키워드가 붙은 함수 내부에서만 사용 가능 하며 비동기 함수가 리턴하는 promise로 부터 결과값을 추출 해준다
+- 결과값을 얻을 수 있을 때까지 기다려준다
